@@ -1,0 +1,12 @@
+
+
+<form action="/analysis" method="POST">
+    <h1>请输入您要解析的视频连接(可以直接复制到窗框):</h1>
+    <textarea name="AnalysisUrl" style="width: 700px;" rows="8" >{{.AnalysisUrl}}</textarea>
+    <br />
+    <button  type="submit">开始解析</button>
+    <br />
+    <h4>返回结果:</h4>
+    <span>{{.Url}}</span>
+</form>
+
