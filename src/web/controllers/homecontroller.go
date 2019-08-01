@@ -22,7 +22,7 @@ func (c *HomeController) Get() mvc.Result {
 		Name: "home/index.html",
 		Data: iris.Map{
 			"Title":       "抖音视频解析!",
-			"AnalysisUrl": "分析测试",
+			"AnalysisUrl": "http://v.douyin.com/kwBbA1/",
 		},
 	}
 }
